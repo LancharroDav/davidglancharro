@@ -1,11 +1,8 @@
 import Head from 'next/head'
-import Header from '../components/header'
-import Start from '../components/start'
-import About from '../components/about'
-import styles from '../styles/index.module.css'
+import Header from './header'
+import styles from '../styles/layout.module.css'
 
-const Home = () => {
-
+const Layout = ({children}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,12 +12,11 @@ const Home = () => {
       <main className={styles.main}>
         <Header />
         <div className={styles.contentBox}>
-          <Start />
-          <About />
+          {children}
         </div>
       </main>
     </div>
   )
 }
 
-export default Home
+export default Layout

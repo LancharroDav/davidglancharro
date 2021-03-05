@@ -6,14 +6,13 @@
 
 .contentBox {
   display: flex;
-  width: 80%;
-  height: 100%;
-  padding: 20px;
+  flex-direction: column;
+  width: 62rem;
+  /* height: 100%; */
+  /* padding: 20px; */
   margin: 30px;
   /* border: 4px solid #85C199; */
   /* border-radius: 4px; */
   /* box-shadow: 0 1px 20px 0 #85C199; */
-  place-self: center;
-  /* justify-content: center; */
-
+  align-self: center;
 }

@@ -5,9 +5,12 @@
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
+  position: fixed;
   /* justify-content: center; */
   justify-content: space-around;
   place-items: center;
+  background-color: #2B2C26;
+  box-shadow: 0 10px 10px 0 #2B2C26;
 }
 
 .buttonContainer {
