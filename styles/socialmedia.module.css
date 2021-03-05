@@ -1,0 +1,25 @@
+.socialMediaButtonContainer {
+  position: fixed;
+  bottom: 0%;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 4px solid #85C199;
+}
+
+.socialMediaButton {
+  color: #85C199;
+  font-size: x-large;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.socialMediaButton:hover {
+  /* color: #CE84AD; */
+  border-bottom: 2px solid #CE84AD;
+  border-radius: 5%;
+}

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Start from '../components/start'
 import About from '../components/about'
+import SocialMedia from '../components/socialmedia'
 import styles from '../styles/index.module.css'
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
           <Start />
           <About />
         </div>
+        <SocialMedia />
       </main>
     </div>
   )
