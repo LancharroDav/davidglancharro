@@ -1,0 +1,36 @@
+.main {
+  width: 80rem;
+  padding: 30px;
+  display: flex;
+  /* place-items: center; */
+  /* justify-self: center; */
+  place-self: center;
+  /* border: 1px solid #85C199; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border: 1px solid #85C199; */
+  /* border-radius: 9px; */
+  color: #85C199;
+  font-size: 80px;
+  font-weight: 800;
+
+}
+
+.name {
+  color: #CE84AD;
+}
+
+.slogan {
+  font-size: 60px;
+}
+
+.description {
+  width: 40rem;
+  font-weight: 400;
+  font-size: large;
+  /* border: 1px solid #85C199; */
+}

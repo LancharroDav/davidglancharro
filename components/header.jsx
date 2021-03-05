@@ -8,11 +8,9 @@ const Header = () => {
         Logo
       </div>
       <div className={styles.buttonContainer}>
-        <button className={styles.menuButton}>About</button>
-        <button className={styles.menuButton}>Skills</button>
-        <button className={styles.menuButton}>Projects</button>
+        <button className={styles.menuButton}>About me</button>
         <button className={styles.menuButton}>Experience</button>
-        <button className={styles.menuButton}>Education</button>
+        <button className={styles.menuButton}>Projects</button>
       </div>
       <div className={styles.socialMediaButtonContainer}>
         <a href="https://www.linkedin.com/in/lancharrodav/" target="__blank" alt="linkedIn Profile">
