@@ -10,6 +10,7 @@ const Start = () => {
           I'm a junior web developer and senior audio engineer based in Berlin, Germany.
           Specialized in Ruby and Javascript and willing to add more languages to the list.
         </p>
+        <button className={styles.moreButton}>More about me</button>
       </div>
     </div>
   )

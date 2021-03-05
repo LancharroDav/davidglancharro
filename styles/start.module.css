@@ -32,3 +32,19 @@
   font-size: large;
   /* border: 1px solid #85C199; */
 }
+
+.moreButton {
+  width: 10rem;
+  padding: 1rem;
+  color: #85C199;
+  font-size: large;
+  background-color: transparent;
+  border: 3px solid #85C199;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.moreButton:hover {
+  color: black;
+  background-color: #85C199;
+}
