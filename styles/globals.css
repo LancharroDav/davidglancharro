@@ -1,6 +1,12 @@
+:root {
+  --main: #2B2C26;
+  --aux: #85C199;
+  --remark: #CE84AD;
+}
+
 html,
 body {
-  background-color: #2B2C26;
+  background-color: var(--main);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

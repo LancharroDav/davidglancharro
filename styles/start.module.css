@@ -12,14 +12,14 @@
   gap: 20px;
   /* border: 1px solid #85C199; */
   /* border-radius: 9px; */
-  color: #85C199;
+  color: var(--aux);
   font-size: 80px;
   font-weight: 800;
 
 }
 
 .name {
-  color: #CE84AD;
+  color: var(--remark);
 }
 
 .slogan {
@@ -36,15 +36,15 @@
 .moreButton {
   width: 10rem;
   padding: 1rem;
-  color: #85C199;
+  color: var(--aux);
   font-size: large;
   background-color: transparent;
-  border: 3px solid #85C199;
+  border: 3px solid var(--aux);
   border-radius: 10px;
   cursor: pointer;
 }
 
 .moreButton:hover {
-  color: black;
-  background-color: #85C199;
+  color: var(--main);
+  background-color: var(--aux);
 }

@@ -11,8 +11,8 @@
   /* justify-content: center; */
   justify-content: space-between;
   place-items: center;
-  background-color: #2B2C26;
-  box-shadow: 0 10px 10px 0 #2B2C26;
+  background-color: var(--main);
+  box-shadow: 0 10px 10px 0 var(--main);
 }
 
 .homeButton {
@@ -28,7 +28,7 @@
 
 .menuButton {
   padding-bottom: 0.5rem;
-  color: #85C199;
+  color: var(--aux);
   font-size: large;
   background-color: transparent;
   border: none;
@@ -36,6 +36,6 @@
 }
 
 .menuButton:hover {
-  border-bottom: 2px solid #CE84AD;
+  border-bottom: 2px solid var(--remark);
   border-radius: 5%;
 }
