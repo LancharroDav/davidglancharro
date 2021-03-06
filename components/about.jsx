@@ -2,8 +2,10 @@ import styles from '../styles/about.module.css'
 
 const About = () => {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>About Me</h1>
+    <div id='about' className={styles.container}>
+      <div className={styles.title}>
+        <p style={{color: '#FF533D'}}>A</p><p>bout Me</p>
+      </div>
       <div className={styles.descriptionContainer}>
         <div className={styles.description}>
           <p>

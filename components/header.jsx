@@ -4,18 +4,18 @@ import styles from '../styles/header.module.css'
 const Header = () => {
   return (
     <header className={styles.container}>
-      <Link href="/">
+      <Link href="#home">
         <button className={styles.homeButton}>Home</button>
       </Link>
       <div className={styles.buttonContainer}>
-        <Link href="/about">
-          <button className={styles.menuButton}>About Me</button>
+        <Link href="#about">
+          <button className={styles.aboutButton}>About Me</button>
         </Link>
-        <Link href="/about">
-          <button className={styles.menuButton}>Experience</button>
+        <Link href="#projects">
+          <button className={styles.projectsButton}>Projects</button>
         </Link>
-        <Link href="/about">
-          <button className={styles.menuButton}>Projects</button>
+        <Link href="#experience">
+          <button className={styles.experienceButton}>Experience</button>
         </Link>
       </div>
     </header>

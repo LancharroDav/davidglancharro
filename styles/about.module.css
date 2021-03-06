@@ -5,12 +5,15 @@
   flex-direction: column;
   justify-content: center;
   align-self: flex-end;
-  color: var(--aux);
   /* border: 4px solid red; */
 }
 
 .title {
-
+  display: flex;
+  flex-direction: row;
+  /* padding-bottom: 1rem; */
+  border-bottom: 2px solid var(--remark);
+  font-size: xx-large;
 }
 
 .descriptionContainer {
@@ -29,10 +32,9 @@
   height: 14rem;
   padding-left: 10px;
   align-self: center;
+  color: var(--remark);
   border-radius: 10px;
-  background-color: var(--aux);
-  color: var(--main);
-  /* border: 4px solid red; */
+  border: 4px solid var(--remark);
 }
 
 .skillsTitle {
