@@ -3,25 +3,19 @@ import styles from '../styles/about.module.css'
 const About = () => {
   return (
     <div id='about' className={styles.container}>
-      <div className={styles.title}>
-        <p style={{color: '#FF533D'}}>A</p><p>bout Me</p>
-      </div>
+      <h1 className={styles.title}>
+        <p>About Me</p>
+      </h1>
       <div className={styles.descriptionContainer}>
         <div className={styles.description}>
           <p>
             As a self-taught engineer, I've developed excellent analysis and organizational ability during the learning process.
             After starting some online development courses, I realized the best way to learn was building a
-            useful tool from scratch. So I decided to develop a bookmark manager that would organize the links by
-            tags and have configurable presets to open several tabs in one click to save me time and energy to start my journey.
+            useful tool from scratch. So I decided to develop a webapp that helps me in my daily workflow.
           </p>
           <p>
             I used Ruby on Rails for the backend and REST API, PostgreSQL for the database, and
             Next.js for the frontend to develop this project.
-          </p>
-          <p>
-            In this learning process, I get used to extract knowledge from different sources as online courses such
-            "The Odin Project", books like "Eloquent Javascript" or "The Ruby Way", and how to find answers in
-            Stackoverflow or directly in GitHub.
           </p>
           <p>
             Doing quality work is very important to me, so I looked for a mentor to support me in this learning

@@ -12,10 +12,6 @@
 
 .socialMediaButton {
   font-size: x-large;
-  color: var(--letters);
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
   transition: transform .1s;
 }
 

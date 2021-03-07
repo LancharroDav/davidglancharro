@@ -2,21 +2,24 @@
   /* --main: #2B2C26;
   --aux: #85C199;
   --remark: #CE84AD; */
-  --main: #0F1626;
-  --aux: #AB987A;
-  --remark: #FF533D;
-  --letters: #F5F5F5;
+  --main: #0a192f;
+  --main-light: #112240;
+  --aux: #ccd6f6;
+  --aux-light: #e6f1ff;
+  --remark: #64ffda;
+  --letters: #a8b2d1;
+  --shadow: #020c1b;
 }
 
 html,
 body {
-  background:
+  /* background:
   linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
   linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
   linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
   linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
   linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424); */
   background-color: var(--main);
   background-size: 20px 20px;
   /* background-color: var(--main); */
@@ -33,6 +36,9 @@ a {
   text-decoration: none;
 }
 
-* {
-  /* box-sizing: border-box; */
+button {
+  background-color: transparent;
+  border: none;
+  color: var(--letters);
+  cursor: pointer;
 }

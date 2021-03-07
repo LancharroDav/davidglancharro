@@ -10,13 +10,13 @@ const Header = () => {
       </Link>
       <div className={styles.buttonContainer}>
         <Link href="#about">
-          <button className={styles.aboutButton}>About Me</button>
+          <button className={styles.menuButton}>About Me</button>
         </Link>
         <Link href="#projects">
-          <button className={styles.projectsButton}>Projects</button>
+          <button className={styles.menuButton}>Projects</button>
         </Link>
         <Link href="#experience">
-          <button className={styles.experienceButton}>Experience</button>
+          <button className={styles.menuButton}>Experience</button>
         </Link>
       </div>
     </header>
