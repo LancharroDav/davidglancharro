@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   /* padding-top: 2rem; */
   /* padding-left: 2rem; */
   /* padding-right: 2rem; */
@@ -16,32 +16,45 @@
 }
 
 .homeButton {
-  padding-left: 2rem;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  font-size: 60px;
+  color: var(--letters);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.homeButton:hover {
+  color: var(--remark);
+  transform: scale(1.2);
 }
 
 .buttonContainer {
   width: 24rem;
-  height: 6rem;
+  height: 4rem;
   display: flex;
   flex-direction: row;
 }
 
 .aboutButton {
-  width: 33%;
+  width: 33.3%;
   font-size: large;
   color: var(--letters);
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid var(--aux);  
+  border-bottom: 2px solid var(--aux);
   cursor: pointer;
 }
 
 .aboutButton:hover {
   background-color: var(--aux);
+  border-radius: 0px 0px 10px 10px;
 }
 
 .projectsButton {
-  width: 33%;
+  width: 33.3%;
   font-size: large;
   color: var(--letters);
   background-color: transparent;
@@ -52,10 +65,11 @@
 
 .projectsButton:hover {
   background-color: var(--remark);
+  border-radius: 0px 0px 10px 10px;
 }
 
 .experienceButton {
-  width: 33%;
+  width: 33.4%;
   font-size: large;
   color: var(--letters);
   background-color: transparent;
@@ -67,4 +81,5 @@
 .experienceButton:hover {
   color: var(--main);
   background-color: var(--letters);
+  border-bottom-left-radius: 10px;
 }

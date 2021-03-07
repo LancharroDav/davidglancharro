@@ -33,17 +33,19 @@
 }
 
 .moreButton {
-  width: 10rem;
-  padding: 1rem;
+  width: 11rem;
+  padding: 1.3rem;
   font-size: large;
   color: var(--remark);
   background-color: transparent;
-  border: 3px solid var(--remark);
+  border: 4px solid var(--remark);
   border-radius: 10px;
   cursor: pointer;
+  transition: transform .2s;
 }
 
 .moreButton:hover {
   color: var(--main);
   background-color: var(--remark);
+  transform: scale(1.05);
 }

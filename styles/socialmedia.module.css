@@ -16,10 +16,10 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: transform .1s;
 }
 
 .socialMediaButton:hover {
   color: var(--remark);
-  border-bottom: 2px solid var(--remark);
-  border-radius: 5%;
+  transform: scale(1.3);
 }
