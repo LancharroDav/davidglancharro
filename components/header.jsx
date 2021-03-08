@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={styles.container}>
       <Link href="#home">
-        <button className={styles.homeButton}>Home</button>
+        <button className={styles.homeButton}><img src="/logo.png" width="100px" height="100px" /></button>
       </Link>
       <div className={styles.buttonContainer}>
         <Link href="#about">

@@ -3,6 +3,7 @@
   height: 85vh;
   display: flex;
   align-items: center;
+  margin-top: 80px;
   /* border: 4px solid #c19185; */
 }
 
@@ -18,6 +19,7 @@
 }
 
 .name {
+  font-size: 64px;
   color: var(--aux);
 }
 
@@ -38,7 +40,7 @@
   font-size: large;
   color: var(--remark);
   border: 2px solid var(--remark);
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .moreButton:hover {

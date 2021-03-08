@@ -18,7 +18,7 @@
   width: 640px;
   height: 357px;
   background-color: var(--remark);
-  border-radius: 10px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -27,7 +27,7 @@
   height: 357px;
   opacity: 40%;
   transition: opacity .3s;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .screenshot:hover {
@@ -51,7 +51,7 @@
   padding: 30px 20px 30px 40px;
   background-color: var(--main-light);
   box-shadow: 0 10px 10px 0px var(--shadow);
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .projectTech {

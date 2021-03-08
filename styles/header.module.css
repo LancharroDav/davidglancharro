@@ -16,13 +16,13 @@
 }
 
 .homeButton {
-  padding-top: 5rem;
-  padding-left: 5rem;
-  font-size: 60px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  /* border-radius: 100%; */
 }
 
 .homeButton:hover {
-  color: var(--remark);
+  /* box-shadow: 0 10px 10px 0 var(--shadow); */
 }
 
 .buttonContainer {
@@ -30,6 +30,7 @@
   height: 4rem;
   display: flex;
   flex-direction: row;
+  padding-top: 12px;
 }
 
 .menuButton {

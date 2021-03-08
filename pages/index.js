@@ -13,7 +13,7 @@ const Home = () => {
     <div className={styles.container}>
       <Head>
         <title>David G Lancharro</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <main className={styles.main}>
         <Header />
