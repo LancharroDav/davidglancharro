@@ -1,7 +1,4 @@
 :root {
-  /* --main: #2B2C26;
-  --aux: #85C199;
-  --remark: #CE84AD; */
   --main: #0a192f;
   --main-light: #112240;
   --aux: #ccd6f6;
@@ -9,6 +6,14 @@
   --remark: #64ffda;
   --letters: #a8b2d1;
   --shadow: #020c1b;
+
+  /* --main: #242A2B; */
+  /* --main-light: #112240; */
+  /* --aux: #ccd6f6; */
+  /* --aux-light: #e6f1ff; */
+  /* --remark: #64ffda; */
+  /* --letters: #a8b2d1; */
+  /* --shadow: #020c1b; */
 }
 
 html,

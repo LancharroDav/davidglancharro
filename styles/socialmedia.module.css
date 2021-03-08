@@ -17,5 +17,5 @@
 
 .socialMediaButton:hover {
   color: var(--remark);
-  transform: scale(1.3);
+  transform: scale(1.1);
 }

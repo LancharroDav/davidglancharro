@@ -20,7 +20,7 @@ const Experience = () => {
         </div>
         <div className={styles.jobTitle}>
           <p className={styles.jobCompany}>References: </p>
-          <p>Will Taylor, Senior Full Stack Developer at Chatterbug</p>
+          <p><a href="https://www.linkedin.com/in/willgeorgetaylor/" className={styles.refLink}>Will Taylor</a>, Senior Full Stack Developer at Chatterbug</p>
         </div>
       </div>
     )
@@ -41,7 +41,7 @@ const Experience = () => {
         </div>
         <div className={styles.jobTitle}>
           <p className={styles.jobCompany}>References: </p>
-          <p>José Carias, SME's Team Manager</p>
+          <p><a href="https://www.facebook.com/jose.carias1" className={styles.refLink}>José Carias</a>, SME's Team Manager</p>
         </div>
       </div>
     )
@@ -63,8 +63,8 @@ const Experience = () => {
         <div className={styles.jobTitle}>
           <p className={styles.jobCompany}>References: </p>
           <div style={{display: "flex", flexDirection: "column"}}>
-            <p>Oriol Garcia Riu, Founder and CTO at Carnaby Studios</p>
-            <p>Mario Crespo, Audio Engineer Manager at Transperfect</p>
+            <p><a href="https://www.linkedin.com/in/oriol-garcia-riu-4a179339/" className={styles.refLink}>Oriol Garcia Riu</a>, Founder and CTO at Carnaby Studios</p>
+            <p><a href="https://www.linkedin.com/in/mariocrespodelgado/" className={styles.refLink}>Mario Crespo</a>, Audio Engineer Manager at Transperfect</p>
           </div>
         </div>
       </div>

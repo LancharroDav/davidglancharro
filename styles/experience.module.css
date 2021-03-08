@@ -54,3 +54,12 @@
   border-left: 2px solid var(--remark);
   border-radius: 10px;
 }
+
+.refLink {
+  color: var(--aux-light);
+  text-decoration: underline;
+}
+
+.refLink:hover {
+  color: var(--remark);
+}
