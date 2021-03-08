@@ -7,12 +7,6 @@
   /* border: 2px solid var(--remark); */
 }
 
-.title {
-  padding-bottom: 1rem;
-  color: var(--aux);
-  border-bottom: 2px solid var(--aux);
-}
-
 .jobsContainer {
   width: 100%;
   display: flex;
@@ -53,6 +47,10 @@
   box-shadow: 0 10px 10px 0px var(--shadow);
   border-left: 2px solid var(--remark);
   border-radius: 10px;
+}
+
+.date {
+  color: var(--remark);
 }
 
 .refLink {

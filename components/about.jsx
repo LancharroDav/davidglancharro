@@ -3,9 +3,7 @@ import styles from '../styles/about.module.css'
 const About = () => {
   return (
     <div id='about' className={styles.container}>
-      <h1 className={styles.title}>
-        <p>About Me</p>
-      </h1>
+      <h1>About Me</h1>
       <div className={styles.descriptionContainer}>
         <div className={styles.description}>
           <p>

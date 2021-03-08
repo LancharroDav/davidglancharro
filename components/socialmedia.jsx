@@ -10,9 +10,9 @@ const SocialMedia = () => {
       <a href="https://github.com/LancharroDav" target="__blank" alt="linkedIn Profile">
         <button className={styles.socialMediaButton}><SiIcons.SiGithub /></button>
       </a>
-      <div>
+      <a href="mailto:davidglancharro@gmail.com" target="__blank" rel="noopener noreferer">
         <button className={styles.socialMediaButton}><SiIcons.SiMailDotRu /></button>
-      </div>
+      </a>
     </div>
   )
 }

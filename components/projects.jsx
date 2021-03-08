@@ -5,7 +5,7 @@ import * as BsIcons from 'react-icons/bs'
 const Projects = () => {
   return (
     <div id="projects" className={styles.container}>
-      <h1 className={styles.title}>Projects</h1>
+      <h1>Projects</h1>
       <div className={styles.project1}>
         <div className={styles.screenshotContainer}>
         <a href="https://devreturns-front.vercel.app/" target="__blank">

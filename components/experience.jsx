@@ -10,6 +10,7 @@ const Experience = () => {
     return (
       <div className={styles.jobDescription}>
         <div>
+          <p className={styles.date}>October 2019 - December 2019 ( 3 months )</p>
           <p>Analysis of conversion and retention of new users on the platform.</p>
           <p>Analyse and classify types of users by platform's usage.</p>
           <p>Create predictive models to improve new users' retention.</p>
@@ -30,6 +31,7 @@ const Experience = () => {
     return (
       <div className={styles.jobDescription}>
         <div>
+          <p className={styles.date}>June 2018 - November 2019 ( 1,5 years )</p>
           <p>Provide support and marketing advice for companies who use Facebook Ads (B2B).</p>
           <p>Prepare, analyze, and optimize their commercial campaigns.</p>
           <p>Setup and advice on usage of tracking tools such as Facebook Pixel.</p>
@@ -51,6 +53,7 @@ const Experience = () => {
     return (
       <div className={styles.jobDescription}>
         <div>
+          <p className={styles.date}>January 2009 - June 2018 ( 9 years )</p>
           <p>Sound design for audiovisual projects such as advertisements, music album recording, and live shooting</p>
           <p>Broadcasts for TV such as La Sexta, Movistar+ or Barça TV.</p>
           <p>Manager for teams up to 6 audio engineers</p>
@@ -73,7 +76,7 @@ const Experience = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Relevant Experience</h1>
+      <h1>Relevant Experience</h1>
       <div className={styles.jobsContainer}>
         <div id="experience" className={styles.jobsTitlelist}>
           <button className={styles.job} onClick={e => setJobselected('Chatterbug')} style={{borderBottom: jobSelected === 'Chatterbug' ? '2px solid var(--remark)' : null}}>

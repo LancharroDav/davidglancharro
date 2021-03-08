@@ -1,6 +1,7 @@
 :root {
   --main: #0a192f;
   --main-light: #112240;
+  --main-lightest: #233554;
   --aux: #ccd6f6;
   --aux-light: #e6f1ff;
   --remark: #64ffda;
@@ -46,4 +47,25 @@ button {
   border: none;
   color: var(--letters);
   cursor: pointer;
+  outline: none;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  color: var(--aux);
+  position: relative;
+  /* border-bottom: 2px solid var(--main-light); */
+}
+
+h1::after {
+  content: "";
+  display: block;
+  position: relative;
+  /* top: -5px;   */
+  width: 400px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--main-lightest);
 }

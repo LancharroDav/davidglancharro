@@ -7,12 +7,6 @@
   /* border: 2px solid var(--remark); */
 }
 
-.title {
-  padding-bottom: 1rem;
-  color: var(--aux);
-  border-bottom: 2px solid var(--aux);
-}
-
 .project1 {
   width: 100%;
   display: flex;

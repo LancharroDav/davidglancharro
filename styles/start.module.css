@@ -37,13 +37,11 @@
   padding: 1.3rem;
   font-size: large;
   color: var(--remark);
-  border: 4px solid var(--remark);
+  border: 2px solid var(--remark);
   border-radius: 10px;
-  transition: transform .2s;
 }
 
 .moreButton:hover {
   color: var(--main);
   background-color: var(--remark);
-  transform: scale(1.05);
 }
