@@ -1,0 +1,22 @@
+.socialMediaButtonContainer {
+  position: fixed;
+  bottom: 0%;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 2px solid var(--letters);
+}
+
+.socialMediaButton {
+  color: var(--aux);
+  font-size: x-large;
+  transition: transform .1s;
+}
+
+.socialMediaButton:hover {
+  color: var(--remark);
+  transform: scale(1.1);
+}

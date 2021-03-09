@@ -1,0 +1,49 @@
+.main {
+  width: 80%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  /* border: 4px solid #c19185; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border: 1px solid #85C199; */
+  /* border-radius: 9px; */
+  font-size: 80px;
+  font-weight: 800;
+
+}
+
+.name {
+  font-size: 64px;
+  color: var(--aux);
+}
+
+.slogan {
+  font-size: 54px;
+}
+
+.description {
+  width: 40rem;
+  font-weight: 400;
+  font-size: large;
+  /* border: 1px solid #85C199; */
+}
+
+.moreButton {
+  width: 11rem;
+  padding: 1.3rem;
+  font-size: large;
+  color: var(--remark);
+  border: 2px solid var(--remark);
+  border-radius: 4px;
+}
+
+.moreButton:hover {
+  color: var(--main);
+  background-color: var(--remark);
+}

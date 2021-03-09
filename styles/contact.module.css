@@ -1,0 +1,13 @@
+.contactButton {
+  width: 11rem;
+  padding: 1.3rem;
+  font-size: large;
+  color: var(--remark);
+  border: 2px solid var(--remark);
+  border-radius: 4px;
+}
+
+.contactButton:hover {
+  color: var(--main);
+  background-color: var(--remark);
+}

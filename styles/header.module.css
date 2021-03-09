@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  height: 4rem;
+  /* padding-top: 2rem; */
+  /* padding-left: 2rem; */
+  /* padding-right: 2rem; */
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  /* justify-content: center; */
+  justify-content: space-between;
+  place-items: center;
+  /* background-color: var(--letters); */
+  /* box-shadow: 0 10px 10px 0 var(--main); */
+}
+
+.homeButton {
+  margin-top: 5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  /* box-shadow: 0 10px 10px 0 var(--shadow); */
+  border-radius: 100%;
+}
+
+.homeButton:hover {
+  box-shadow: 0 10px 10px 0 var(--shadow);
+}
+
+.buttonContainer {
+  width: 24rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+
+.menuButton {
+  width: 33.3%;
+  color: var(--aux);
+  font-size: large;
+  text-transform: capitalize;
+}
+
+.menuButton:hover {
+  color: var(--remark);
+  /* border-bottom: 2px solid var(--remark); */
+}
+
+.menuButton::first-letter {
+  color: var(--remark);
+  font-size: larger;
+}

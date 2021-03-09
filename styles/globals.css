@@ -1,9 +1,41 @@
+:root {
+  --main: #0a192f;
+  --main-light: #112240;
+  --main-lightest: #233554;
+  --aux: #ccd6f6;
+  --aux-light: #e6f1ff;
+  --remark: #64ffda;
+  --letters: #8892b0;
+  --shadow: #020c1b;
+
+  /* --main: #242A2B; */
+  /* --main-light: #112240; */
+  /* --aux: #ccd6f6; */
+  /* --aux-light: #e6f1ff; */
+  /* --remark: #64ffda; */
+  /* --letters: #a8b2d1; */
+  /* --shadow: #020c1b; */
+
+}
+
 html,
 body {
+  /* background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424); */
+  background-color: var(--main);
+  background-size: 20px 20px;
+  /* background-color: var(--main); */
   padding: 0;
   margin: 0;
+  color: var(--letters);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -11,6 +43,35 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+button {
+  background-color: transparent;
+  border: none;
+  color: var(--letters);
+  cursor: pointer;
+  outline: none;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  font-size: xx-large;
+  color: var(--aux);
+  position: relative;
+  /* border-bottom: 2px solid var(--main-light); */
+}
+
+h1::after {
+  content: "";
+  display: block;
+  position: relative;
+  /* top: -5px;   */
+  width: 400px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--main-lightest);
+}
+
+p {
+  line-height: 180%;
 }

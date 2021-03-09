@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  /* border: 2px solid var(--remark); */
+}
+
+.jobsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.jobsTitleList {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+
+.job {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 30px 0 5px;
+  border-bottom-left-radius: 4px;
+  font-size: small;
+  outline: none;
+}
+
+.jobTitle {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.jobCompany {
+  color: var(--remark);
+}
+
+.jobDescription {
+  width: 62%;
+  padding: 10px 30px;
+  background-color: var(--main-light);
+  box-shadow: 0 10px 10px 0px var(--shadow);
+  border-left: 2px solid var(--remark);
+  border-radius: 4px;
+}
+
+.date {
+  color: var(--remark);
+}
+
+.refLink {
+  color: var(--aux-light);
+  text-decoration: underline;
+}
+
+.refLink:hover {
+  color: var(--remark);
+}
