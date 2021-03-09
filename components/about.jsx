@@ -25,13 +25,13 @@ const About = () => {
         </div>
         <div className={styles.skillsContainer}>
           <p className={styles.skillsTitle}>Most used technologies</p>
-          {/* <div className={styles.skillsList}>
+          <div className={styles.skillsList}>
             {stack.map(tool => {
               return [
                 <ul className={styles.stack}>{tool}</ul>
               ]
             })}
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
