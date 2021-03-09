@@ -16,33 +16,32 @@
 }
 
 .description {
-  width: 60%;
+  width: 56%;
 }
 
 .skillsContainer {
-  width: 36%;
-  height: 14rem;
-  padding-left: 10px;
-  align-self: center;
+  width: 43%;
   color: var(--remark);
-  background-color: var(--main-light);
-  border-radius: 10px;
-  /* border: 4px solid var(--remark); */
-  box-shadow: 0 10px 10px 0 var(--shadow);
+  /* background-color: var(--main-light); */
+  border-radius: 4px;
+  /* box-shadow: 0 10px 10px 0 var(--shadow); */
 }
 
 .skillsTitle {
+  text-align: center;
   color: var(--remark);
 }
 
 .skillsList {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 40% 40%;
   justify-content: space-around;
 }
 
-.skills {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.stack {
+  text-align: center;
+  color: var(--aux);
+  padding: 10px 4px 10px;
+  border: 1px solid var(--remark);
+  border-radius: 4px;
 }

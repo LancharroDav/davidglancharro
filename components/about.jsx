@@ -1,8 +1,9 @@
 import styles from '../styles/about.module.css'
 
 const About = () => {
+  let stack = ["Ruby on Rails", "Javascript", "Next.js", "React", "HTML & CSS", "PostgreSQL", "Git" ]
   return (
-    <div id='about' className={styles.container}>
+    <section id='about' className={styles.container}>
       <h1>About Me</h1>
       <div className={styles.descriptionContainer}>
         <div className={styles.description}>
@@ -23,23 +24,17 @@ const About = () => {
           </p>
         </div>
         <div className={styles.skillsContainer}>
-          <h3 className={styles.skillsTitle}>Most used Technologies:</h3>
+          <p className={styles.skillsTitle}>Most used technologies</p>
           <div className={styles.skillsList}>
-            <div className={styles.skills}>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-              <li>Next.js</li>
-              <li>React</li>
-            </div>
-            <div className={styles.skills}>
-              <li>{'HTML & CSS'}</li>
-              <li>PostgreSQL</li>
-              <li>Git</li>
-            </div>
+            {stack.map(tool => {
+              return [
+                <ul className={styles.stack}>{tool}</ul>
+              ]
+            })}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

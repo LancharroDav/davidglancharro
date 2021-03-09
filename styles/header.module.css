@@ -17,12 +17,14 @@
 
 .homeButton {
   margin-top: 5rem;
-  margin-left: 5rem;
-  /* border-radius: 100%; */
+  margin-left: 1rem;
+  cursor: pointer;
+  /* box-shadow: 0 10px 10px 0 var(--shadow); */
+  border-radius: 100%;
 }
 
 .homeButton:hover {
-  /* box-shadow: 0 10px 10px 0 var(--shadow); */
+  box-shadow: 0 10px 10px 0 var(--shadow);
 }
 
 .buttonContainer {
@@ -35,6 +37,7 @@
 
 .menuButton {
   width: 33.3%;
+  color: var(--aux);
   font-size: large;
 }
 
