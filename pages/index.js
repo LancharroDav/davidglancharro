@@ -25,7 +25,7 @@ const Home = () => {
           <Experience />
           <Contact />
         </div>
-        <SocialMedia />
+        {/* <SocialMedia /> */}
       </main>
     </div>
   )

@@ -3,8 +3,7 @@ import styles from '../styles/start.module.css'
 
 const Start = () => {
   return (
-    <div id="home" className={styles.main}>
-      <div className={styles.container}>
+      <div id="home" className={styles.container}>
         <span className={styles.name}>David G. Lancharro</span>
         <span className={styles.slogan}>Passion for coding and audio.</span>
         <p className={styles.description}>
@@ -15,7 +14,6 @@ const Start = () => {
           <button className={styles.moreButton}>More about me</button>
         </Link>
       </div>
-    </div>
   )
 }
 

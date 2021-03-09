@@ -8,9 +8,9 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className={styles.project1}>
         <div className={styles.screenshotContainer}>
-        <a href="https://devreturns-front.vercel.app/" target="__blank">
-          <img src="/screenshot-dashboard.png" alt="devReturns" className={styles.screenshot} />
-        </a>
+          {/* <a href="https://devreturns-front.vercel.app/" target="__blank">
+            <img src="/screenshot-dashboard.png" alt="devReturns" className={styles.screenshot} />
+          </a> */}
         </div>
         <div className={styles.projectInfoContainer}>
           <h3 className={styles.projectTitle}>Lazy Cat</h3>
