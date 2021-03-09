@@ -55,6 +55,7 @@ h1 {
   display: flex;
   align-items: center;
   padding-bottom: 1rem;
+  font-size: xx-large;
   color: var(--aux);
   position: relative;
   /* border-bottom: 2px solid var(--main-light); */

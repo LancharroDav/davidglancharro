@@ -1,7 +1,7 @@
 import styles from '../styles/about.module.css'
 
 const About = () => {
-  let stack = ["Ruby on Rails", "Javascript", "Next.js", "React", "HTML & CSS", "PostgreSQL", "Git" ]
+  const stack = ["Ruby on Rails", "Javascript", "Next.js", "React", "HTML & CSS", "PostgreSQL", "Git" ]
   return (
     <section id='about' className={styles.container}>
       <h1>About Me</h1>

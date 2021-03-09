@@ -39,9 +39,15 @@
   width: 33.3%;
   color: var(--aux);
   font-size: large;
+  text-transform: capitalize;
 }
 
 .menuButton:hover {
   color: var(--remark);
   /* border-bottom: 2px solid var(--remark); */
+}
+
+.menuButton::first-letter {
+  color: var(--remark);
+  font-size: larger;
 }
