@@ -9,8 +9,8 @@ const About = () => {
         <div className={styles.description}>
           <p>
             As a self-taught engineer, I've developed excellent analysis and organizational ability during the learning process.
-            After starting some online development courses, I realized the best way to learn was building a
-            useful tool from scratch. So I decided to develop a webapp that helps me in my daily workflow.
+            I realized the best way to learn was building a useful tool from scratch. 
+            So I decided to develop a webapp that helps me in my daily workflow.
           </p>
           <p>
             I used Ruby on Rails for the backend and REST API, PostgreSQL for the database, and
@@ -18,8 +18,7 @@ const About = () => {
           </p>
           <p>
             Doing quality work is very important to me, so I looked for a mentor to support me in this learning
-            process. He is Pedro Piñera Buendía, Engineering Manager in the React Native
-            Foundations team at Shopify. He has been and still is the one I ask my doubts to and who guides me so
+            process. He has been and still is the one I ask my doubts to and who guides me so
             that my code maintains a professional quality.
           </p>
         </div>
