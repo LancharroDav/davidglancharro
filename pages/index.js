@@ -6,6 +6,7 @@ import Projects from '../components/projects'
 import SocialMedia from '../components/socialmedia'
 import Experience from '../components/experience'
 import Contact from '../components/contact'
+import Footer from '../components/footer'
 import styles from '../styles/index.module.css'
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
           <Experience />
           <Contact />
         </div>
+        <Footer />
         <SocialMedia />
       </main>
     </div>

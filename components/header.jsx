@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className={styles.container}>
       <Link href="#home">
-        <img src="/logo.png" width="100px" height="100px" className={styles.homeButton} />
+        <img src="/logo.png" width="50px" height="50px" className={styles.homeButton} />
       </Link>
       <div className={styles.buttonContainer}>
         {navMenu.map(section => {

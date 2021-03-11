@@ -1,26 +1,21 @@
 .container {
-  width: 90%;
-  height: 90vh;
+  width: 100%;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-self: flex-end;
   /* border: 4px solid red; */
 }
 
 .descriptionContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   /* border: 4px solid red; */
 }
 
-.description {
-  width: 56%;
-}
-
 .skillsContainer {
-  width: 43%;
   color: var(--remark);
   /* background-color: var(--main-light); */
   border-radius: 4px;
