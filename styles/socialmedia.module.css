@@ -1,13 +1,11 @@
 .socialMediaButtonContainer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0%;
-  padding-top: 1rem;
-  padding-bottom: 8rem;
-  padding-left: 2rem;
+  padding-bottom: 2rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   gap: 2rem;
-  border-left: 2px solid var(--letters);
 }
 
 .socialMediaButton {

@@ -6,6 +6,11 @@ const Experience = () => {
 
   const [jobSelected, setJobselected] = useState('Chatterbug')
 
+  const selection = {
+    backgroundColor: 'var(--main-light)',
+    borderTop: '1px solid var(--remark)'
+  }
+
   const Chatterbug = () => {
     return (
       <div className={styles.jobDescription}>
@@ -79,19 +84,19 @@ const Experience = () => {
       <h1>Relevant Experience</h1>
       <div className={styles.jobsContainer}>
         <div id="experience" className={styles.jobsTitleList}>
-          <button className={styles.job} onClick={e => setJobselected('Chatterbug')} style={{backgroundColor: jobSelected === 'Chatterbug' ? 'var(--main-light)' : null}}>
+          <button className={styles.job} onClick={e => setJobselected('Chatterbug')} style={jobSelected == 'Chatterbug' ? selection : null}>
             <div className={styles.jobTitle}>
               <h3>Data Scientist intern </h3>
               <h3 className={styles.jobCompany}>Chatterbug</h3>
             </div>          
           </button>
-          <button className={styles.job} onClick={e => setJobselected('Freelance')} style={{backgroundColor: jobSelected === 'Freelance' ? 'var(--main-light)' : null}}>
+          <button className={styles.job} onClick={e => setJobselected('Freelance')} style={jobSelected == 'Freelance' ? selection : null}>
             <div className={styles.jobTitle}>
               <h3>Audio Engineer </h3>
               <h3 className={styles.jobCompany}>Freelance</h3>
             </div>
           </button>
-          <button className={styles.job} onClick={e => setJobselected('Convergys')} style={{backgroundColor: jobSelected === 'Convergys' ? 'var(--main-light)' : null}}>
+          <button className={styles.job} onClick={e => setJobselected('Convergys')} style={jobSelected == 'Convergys' ? selection : null}>
             <div className={styles.jobTitle}>
               <h3>Subject Matter Expert </h3>
               <h3 className={styles.jobCompany}>Convergys</h3>
