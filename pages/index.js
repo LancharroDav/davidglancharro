@@ -16,6 +16,14 @@ const Home = () => {
       <Head>
         <title>David G Lancharro</title>
         <link rel="icon" href="/logo.png" />
+        <meta property="og:url" content="davidglancharro.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="David G. Lancharro" />
+        <meta 
+          property="og:description"
+          content="Know more about David G. Lancharro checking into my website!"
+        />
+        <meta property="og:image" content={"/logo.png"} />
       </Head>
       <main className={styles.main}>
         <Header />
