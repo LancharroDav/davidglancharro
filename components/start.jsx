@@ -12,7 +12,7 @@ const Start = () => {
           <span className={styles.slogan}>Passion for coding and audio.</span>
           <p className={styles.description}>
             I'm a junior web developer and senior audio engineer based in Berlin, Germany.
-            Specialized in Ruby and Javascript and willing to add more languages to the list.
+            Specialized in Ruby and Javascript to build websites, web applications, and everything in between.
           </p>
           <Link href="#about">
             <button className={styles.moreButton}>More about me</button>
