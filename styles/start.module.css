@@ -3,12 +3,9 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: flex-start;
-  /* padding: 60px 0; */
   gap: 40px;
   font-weight: 650;
-  /* border: 4px solid #c19185; */
 
 }
 
@@ -19,24 +16,20 @@
 .introContainer {
   display: flex;
   flex-direction: column;
-  /* justify-self: center; */
+  font-size: 37px;
   gap: 10px;
 }
 
 .name {
-  font-size: 37px;
   color: var(--aux);
 }
 
 .slogan {
-  font-size: 37px;
 }
 
 .description {
-  /* width: 40rem; */
   font-weight: 400;
   font-size: 16px;
-  /* border: 1px solid #85C199; */
 }
 
 .moreButton {
@@ -51,4 +44,37 @@
 .moreButton:hover {
   color: var(--main);
   background-color: var(--remark);
+}
+
+/* TABLET VIEW */
+
+@media only screen and (min-width: 600px) {
+  .homeButton {
+    margin-top: 250px;
+  }
+}
+
+/* LAPTOP 1024PX VIEW */
+
+@media only screen and (min-width: 1000px) {
+
+  .homeButton {
+    margin-top: 350px;
+  }
+}
+
+/* LAPTOP 1300px VIEW */
+
+@media only screen and (min-width: 1300px) {
+  .homeButton {
+    margin-top: 200px;
+  }
+  
+  .introContainer {
+    font-size: 60px;
+  }
+
+  .description {
+    width: 50%;
+  }
 }

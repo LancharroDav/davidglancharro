@@ -1,5 +1,4 @@
 .socialMediaButtonContainer {
-  /* position: fixed; */
   bottom: 0%;
   padding-bottom: 2rem;
   display: flex;
@@ -17,4 +16,18 @@
 .socialMediaButton:hover {
   color: var(--remark);
   transform: scale(1.1);
+}
+
+/* LAPTOP 1024PX VIEW */
+
+@media only screen and (min-width: 1000px) {
+  .socialMediaButtonContainer {
+    height: 14rem;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    border-left: 4px solid var(--remark);
+  }
 }

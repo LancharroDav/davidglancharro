@@ -15,3 +15,7 @@
   font-size: medium;
   color: var(--remark);
 }
+
+.name:hover {
+  text-decoration: underline;
+}

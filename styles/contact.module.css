@@ -15,6 +15,11 @@
   content: none
 }
 
+.ctaText {
+  width: 85%;
+  text-align: center;
+}
+
 .contactButton {
   width: 11rem;
   padding: 1rem;
@@ -28,4 +33,38 @@
 .contactButton:hover {
   color: var(--main);
   background-color: var(--remark);
+}
+
+/* TABLET VIEW */
+
+@media only screen and (min-width: 600px) {
+  .container {
+    height: 50vh;
+  }
+}
+
+/* LAPTOP 1024PX VIEW */
+
+@media only screen and (min-width: 1000px) {
+  .title {
+    font-size: 57px;
+  }
+  
+  .ctaText {
+    width: 60%;
+    margin-top: -30px;
+    font-size: large;
+  }
+}
+
+/* LAPTOP 1300px VIEW */
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    height: 60vh;
+  }
+
+  .contactButton {
+    margin-top: 50px;
+  }
 }
