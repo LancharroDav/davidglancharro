@@ -1,6 +1,7 @@
 import styles from '../styles/projects.module.css'
 import Link from 'next/link'
 import * as BsIcons from 'react-icons/bs'
+import * as FiIcons from 'react-icons/fi'
 
 const Projects = () => {
   return (
@@ -28,6 +29,9 @@ const Projects = () => {
           <div>
             <a href="https://devreturns-front.vercel.app/" target="__blank">
               <button className={styles.launchButton}><BsIcons.BsBoxArrowUpRight /></button>
+            </a>
+            <a href="https://github.com/LancharroDav/lazycat-front" target="__blank">
+              <button className={styles.launchButton}><FiIcons.FiGithub /></button>
             </a>
           </div>
         </div>
