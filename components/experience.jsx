@@ -4,11 +4,27 @@ import * as RiIcons from 'react-icons/ri'
 
 const Experience = () => {
 
-  const [jobSelected, setJobselected] = useState('Chatterbug')
+  const [jobSelected, setJobselected] = useState('Ivicos')
 
   const selection = {
     backgroundColor: 'var(--main-light)',
     borderTop: '1px solid var(--remark)'
+  }
+
+  const Ivicos = () => {
+    return (
+      <div className={styles.jobDescription}>
+        <div>
+          <p className={styles.date}>April 2021 - actual</p>
+          <p>Develop new tools for an online meeting service.</p>
+          <p>Build audio tools for videocall system.</p>
+        </div>
+        <div className={styles.descriptionLists}>
+          <p className={styles.descriptionListsTitle}>Stack </p>
+          <p>Node.js, Nest.js, Typescript, SQL, MongoDB, React.</p>
+        </div>
+      </div>
+    )
   }
 
   const Chatterbug = () => {
@@ -84,6 +100,12 @@ const Experience = () => {
       <h1>Relevant Experience</h1>
       <div className={styles.jobsContainer}>
         <div id="experience" className={styles.jobsTitleList}>
+          <button className={styles.job} onClick={e => setJobselected('Ivicos')} style={jobSelected == 'Ivicos' ? selection : null}>
+            <div className={styles.jobTitle}>
+              <h3>Backend Developer </h3>
+              <h3 className={styles.jobCompany}>Ivicos</h3>
+            </div>          
+          </button>
           <button className={styles.job} onClick={e => setJobselected('Chatterbug')} style={jobSelected == 'Chatterbug' ? selection : null}>
             <div className={styles.jobTitle}>
               <h3>Data Scientist intern </h3>
@@ -106,6 +128,7 @@ const Experience = () => {
         {jobSelected === 'Chatterbug' ? Chatterbug() : null}
         {jobSelected === 'Freelance' ? Freelance() : null}
         {jobSelected === 'Convergys' ? Convergys() : null}
+        {jobSelected === 'Ivicos' ? Ivicos() : null}
       </div>
     </div>
   )
