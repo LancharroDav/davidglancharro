@@ -21,7 +21,7 @@ const Experience = () => {
         </div>
         <div className={styles.descriptionLists}>
           <p className={styles.descriptionListsTitle}>Stack </p>
-          <p>Node.js, Nest.js, Typescript, SQL, MongoDB, React.</p>
+          <p>Node.js, Ruby on Rails, Typescript, Docker, MongoDB, React.</p>
         </div>
       </div>
     )

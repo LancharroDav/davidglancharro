@@ -11,7 +11,7 @@ const Start = () => {
           <span className={styles.name}>David G. Lancharro</span>
           <span className={styles.slogan}>Passion for coding and audio.</span>
           <p className={styles.description}>
-            I'm a web developer and senior audio engineer based in Berlin and Barcelona.
+            I'm a web developer and senior audio engineer based in Barcelona.
             Specialized in Ruby and Javascript to build websites, web applications, and everything in between.
           </p>
           <Link href="#about">
