@@ -62,7 +62,7 @@ const Experience = () => {
         </div>
         <div className={styles.descriptionLists}>
           <p className={styles.descriptionListsTitle}>Stack </p>
-          <p>Facebook Ads, Pixel Facebook, Facebook Catalogues, Facebook’s analisys tools.</p>
+          <p>Facebook Ads, Pixel Facebook, Facebook Catalogues, Facebook’s analysis tools.</p>
         </div>
         <div className={styles.descriptionLists}>
           <p className={styles.descriptionListsTitle}>References </p>
