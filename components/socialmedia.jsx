@@ -1,5 +1,6 @@
 import styles from '../styles/socialmedia.module.css'
 import * as SiIcons from 'react-icons/si'
+import * as MdIcons from 'react-icons/md'
 
 const SocialMedia = () => {
   return (
@@ -11,7 +12,7 @@ const SocialMedia = () => {
         <button className={styles.socialMediaButton}><SiIcons.SiGithub /></button>
       </a>
       <a href="mailto:davidglancharro@gmail.com" target="__blank" rel="noopener noreferer">
-        <button className={styles.socialMediaButton}><SiIcons.SiMaildotru /></button>
+        <button className={styles.socialMediaButton}><MdIcons.MdAlternateEmail /></button>
       </a>
     </div>
   )
