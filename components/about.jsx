@@ -1,25 +1,22 @@
 import styles from '../styles/about.module.css'
 
 const About = () => {
-  const stack = ["Ruby on Rails", "Typescript", "React", "Node.js", "MongoDB", "PostgreSQL", "Git", "Docker" ]
+  const stack = ["Ruby on Rails", "Typescript", "React", "Node.js", "MongoDB", "PostgreSQL", "Kubernetes", "Docker" ]
   return (
     <section id='about' className={styles.container}>
       <h1>About Me</h1>
       <div className={styles.descriptionContainer}>
         <div className={styles.description}>
           <p>
-            As a self-taught engineer, I've developed excellent analysis and organizational ability during the learning process.
-            I realized the best way to learn was building a useful tool from scratch. 
-            So I decided to develop a webapp that helps me in my daily workflow.
+            Passionate about coding and audiovisuals, very curious and new challenges seeker.
+            These are some words that show a sample of my profile.
           </p>
           <p>
-            I used Ruby on Rails for the backend and REST API, PostgreSQL for the database, and
-            Next.js for the frontend to develop this project.
+            I understand the power of teamwork and how several minds thinking together can tackle major challenges.
           </p>
           <p>
-            Doing quality work is very important to me, so I looked for a mentor to support me in this learning
-            process. He has been and still is the one I ask my doubts to and who guides me so
-            that my code maintains a professional quality.
+            I'm committed to building high-quality and reliable products.
+            To that end, I focus on the details because that turns a good product into a great product.
           </p>
         </div>
         <div className={styles.skillsContainer}>

@@ -11,7 +11,7 @@ const SocialMedia = () => {
         <button className={styles.socialMediaButton}><SiIcons.SiGithub /></button>
       </a>
       <a href="mailto:davidglancharro@gmail.com" target="__blank" rel="noopener noreferer">
-        <button className={styles.socialMediaButton}><SiIcons.SiMailDotRu /></button>
+        <button className={styles.socialMediaButton}><SiIcons.SiMaildotru /></button>
       </a>
     </div>
   )

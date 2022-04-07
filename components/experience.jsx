@@ -16,12 +16,14 @@ const Experience = () => {
       <div className={styles.jobDescription}>
         <div>
           <p className={styles.date}>April 2021 - actual</p>
-          <p>Develop new tools for an online meeting service.</p>
-          <p>Build audio tools for videocall system.</p>
+          <p>Dev Team Lead (team of 5 developers).</p>
+          <p>Architecture backend services.</p>
+          <p>Improve and maintain a self-hosted Jitsi structure.</p>
+          <p>Design and build APIs for microservices.</p>
         </div>
         <div className={styles.descriptionLists}>
           <p className={styles.descriptionListsTitle}>Stack </p>
-          <p>Node.js, Ruby on Rails, Typescript, Docker, MongoDB, React.</p>
+          <p>Node.js, Ruby on Rails, Typescript, React, Kubernetes, Docker, MongoDB.</p>
         </div>
       </div>
     )
